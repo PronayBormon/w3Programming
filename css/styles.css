@@ -994,7 +994,7 @@ body {
 
 .main_sidebar {
     width: 200px;
-    background: #28330a;
+    background: #283d1f;
     top: 113px;
     position: fixed;
     left: 0;
@@ -1023,6 +1023,7 @@ body {
     align-items: center;
     width: 100%;
     /* margin-bottom: 10px; */
+    border-bottom: 1px solid #ffffff45;
 }
 
 .main_sidebar ul li a {
@@ -1034,6 +1035,7 @@ body {
     transition: .4s all ease-in-out;
     padding: 5px 8px;
     border-radius: 3px;
+    /* color: #000; */
 }
 
 .main_sidebar ul li a .side_icon {
@@ -1150,7 +1152,7 @@ body {
 }
 
 .categoryFilter {
-    background: var(--secondaryColor);
+    background: #283d1f;
     box-shadow: 0px 10px 20px #0003;
 }
 
@@ -1182,7 +1184,8 @@ body {
     text-decoration: none;
     padding: 10px;
     display: block;
-    border: 1px solid #adadad0a;
+    border: 1px solid #adadad45;
+    background: #ffffff1c;
 }
 
 .cat_filter_btn {}
@@ -1190,7 +1193,7 @@ body {
 .cat_filter_btn:hover,
 .cat_filter_btn.active,
 .cat_filter_btn:active {
-    background-color: #bbe70c1c;
+    background-color: #bce70c5e;
     color: var(--primaryColor);
 }
 
