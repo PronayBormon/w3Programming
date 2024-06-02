@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- title  -->
+  <title>W3Programming</title>
+
+  <!-- bootstrap 5.3    -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- fontawsome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+  <!-- style css  -->
+  <link rel="stylesheet" href="css/styles.css"> <!--Styles-->
+
+</head>
+
+<body>
+
+  <!-- navbar part start here  -->
+  <section class="navbar_section">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <!-- logo -->
+          <img src="images/logo.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html#tutorials">Tutorials</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Test
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="mcq.html">MCQ</a></li>
+                  <li><a class="dropdown-item" href="question-answer.html">Q&A</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Certificates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="community.html">Community</a>
+              </li>
+          </ul>
+          <!-- <button class="btn btn-primary">Certificate</button> -->
+        </div>
+      </div>
+    </nav>
+    <!-- category filter section start here  -->
+    <div class="categoryFilter">
+      <ul>
+        <li class=" d-block d-md-none" style="position: sticky;
+        left: 0; z-index: 0; background: #000;"><a href="javascript:void(0)" type="button " class="btn-sidebar"><i
+              class="fa-solid fa-bars"></i></a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn active">HTML</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">CSS</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">JAVASCRIPT</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C++</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C#</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">JAVA</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">PYTHON</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">BOOTSTRAP</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">TAILWIND</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">GRAPHICES</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">CODIGNATOR</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">LARAVEL</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">REACT</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">VUE</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn active">HTML</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">CSS</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">JAVASCRIPT</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C++</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C#</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">JAVA</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">PYTHON</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">BOOTSTRAP</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">TAILWIND</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">GRAPHICES</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">CODIGNATOR</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">LARAVEL</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">REACT</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">VUE</a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- navbar part end here  -->
+
+  <!-- main section start here  -->
+  <div class="main_section">
+    <!-- sidebar start here  -->
+    <div class="main_sidebar">
+      <ul>
+        <li class="active">
+          <a href="index.html">
+            <p>Html</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>Css</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>Javascrip</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>PHP</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>Laravel</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>C</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>C++</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>Java</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>Python</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>C#</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>React</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>Vue</p>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <p>Angular</p>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+
+    <!-- content section start here  -->
+
+    <div class="main_content">
+      <!-- content start here  -->
+      <div class="content_box">
+        <div class="row">
+          <div class="col-md-10">
+            
+            <div class="question_container">
+              <div class="question_box">
+                <h5>### Question 1</h5>
+                <h6>*What does PHP stand for?*</h6>
+                <ol>
+                  <li>Personal Home Page</li>
+                  <li>Private Home Page</li>
+                  <li>PHP: Hypertext Preprocessor</li>
+                  <li>Preprocessor Home Page</li>
+                </ol>
+                <a type="button" class="see_ans">See Answer</a>
+                <p class="answer">*Answer: C) PHP: Hypertext Preprocessor*</p>
+              </div>
+
+              <div class="question_box">
+                <h5>### Question 2</h5>
+                <h6>*Which function is used to start a session in PHP?*</h6>
+                <ol>
+                  <li>session_begin() </li>
+                  <li>session_start() </li>
+                  <li>start_session() </li>
+                  <li>begin_session() </li>
+                </ol>
+                <a type="button" class="see_ans">See Answer</a>
+                <p class="answer">*Answer: B) session_start()* </p>
+              </div>
+
+              <div class="question_box">
+                <h5>### Question 3 </h5>
+                <h6>*Which of the following is the correct way to include a file in PHP?* </h6>
+                <ol>
+                  <li>include file.php;</li>
+                  <li>include 'file.php';</li>
+                  <li>include "file.php"</li>
+                  <li>Both B and C</li>
+                </ol>
+                <a type="button" class="see_ans">See Answer</a>
+                <p class="answer">*Answer: D) Both B and C*</p>
+              </div>
+
+              <div class="question_box">
+                <h5>### Question 4</h5>
+                <h6>*What is the correct way to end a PHP statement?*</h6>
+                <ol>
+                  <li>.</li>
+                  <li>:</li>
+                  <li>;</li>
+                  <li>?&gt;</li>
+                </ol>
+                <a type="button" class="see_ans">
+                  See Answer
+                </a>
+                <p class="answer">*Answer: B) ;*</p>
+
+              </div>
+            </div>
+            <div class="question_container">
+              <div class="question_box">
+                <h5>Question 1: What is PHP and what are its main uses?
+                </h5>
+                <h6> Answer:</h6>
+                <p>PHP (Hypertext Preprocessor) is a server-side scripting language designed for web development
+                  but also used as a general-purpose programming language. It is widely used to create dynamic
+                  web pages and applications, handle server-side tasks, manage databases, and enhance web
+                  server functionality.</p>
+              </div>
+              <div class="question_box">
+                <h5>Question 2: Explain the difference between echo and print in PHP.</h5>
+                <h6> Answer:</h6>
+                <p>Both echo and print are used to output data to the screen in PHP. The main differences are:
+                </p>
+              </div>
+              <div class="question_box">
+                <h5>Question 3: How does PHP handle form data submitted via POST and GET methods?</h5>
+                <h6> Answer:</h6>
+                <p>PHP uses superglobal arrays to handle form data:</p>
+                <p>Both echo and print are used to output data to the screen in PHP. The main differences are:
+                  echo can take multiple parameters (although usage is rare) and does not return a value.
+                  print can only take one argument and returns 1, so it can be used in expressions.</p>
+              </div>
+              <div class="question_box">
+                <h5>Question 2: Explain the difference between echo and print in PHP.</h5>
+                <h6> Answer:</h6>
+                <p>$_GET: This array contains data submitted via the GET method, visible in the URL.</p>
+                <p>$_POST: This array contains data submitted via the POST method, not visible in the URL.</p>
+                <p>$_REQUEST: This array contains data from both GET and POST methods, as well&nbsp;as&nbsp;cookies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="ads_imgs">
+              <img src="images/adsOne.png" alt="" style="width: 100%;">
+              <img src="images/adsTwo.png" alt="" style="width: 100%;">
+              <img src="images/adsOne.png" alt="" style="width: 100%;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer part start here  -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-6 col-xxl-5">
+              <div class="footer_subcription">
+                <h1>W3Programming</h1>
+                <p>Welcome to W3Programming, your gateway to the world of Web3 trading! Our user-friendly platform
+                  empowers
+                  you to explore a wide range of programming learning</p>
+                <ul class="socialList">
+                  <li><a href="javascrip:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="javascrip:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="javascrip:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href="javascrip:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3 col-md-4 col-lg-3 col-xxl-2">
+              <div class="cat_list">
+                <h1>Company</h1>
+                <ul>
+                  <li><a href="javscript:void(0)">About</a></li>
+                  <li><a href="javscript:void(0)">Join</a></li>
+                  <li><a href="javscript:void(0)">Blog</a></li>
+                  <li><a href="javscript:void(0)">Academy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3 col-md-4 col-lg-3 col-xxl-2">
+              <div class="cat_list">
+                <h1>Security</h1>
+                <ul>
+                  <li><a href="javscript:void(0)">Contact</a></li>
+                  <li><a href="javscript:void(0)">Protection</a></li>
+                  <li><a href="javscript:void(0)">Security</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3 col-md-4 col-lg-3 col-xxl-2">
+              <div class="cat_list">
+                <h1>Assets</h1>
+                <ul>
+                  <li><a href="javscript:void(0)">Html</a></li>
+                  <li><a href="javscript:void(0)">Css</a></li>
+                  <li><a href="javscript:void(0)">javascrip</a></li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <section class="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 m-auto text-center">
+              <p>Copyright 2024 - Futuregenit All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer part end here  -->
+    </div>
+  </div>
+  <!-- main section end here  -->
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!--Jquery Cdn-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script> <!--Bootstrap-->
+  <script src="js/custom_main.js">
+
+  </script>
+
+</body>
+
+</html>

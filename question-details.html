@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- title  -->
+    <title>W3Programming</title>
+
+    <!-- bootstrap 5.3    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- fontawsome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Summernote CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+
+    <!-- style css  -->
+    <link rel="stylesheet" href="css/styles.css"> <!--Styles-->
+
+</head>
+
+<body>
+
+
+  <!-- navbar part start here  -->
+  <section class="navbar_section">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <!-- logo -->
+          <img src="images/logo.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html#tutorials">Tutorials</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Test
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="mcq.html">MCQ</a></li>
+                  <li><a class="dropdown-item" href="question-answer.html">Q&A</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Certificates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="community.html">Community</a>
+              </li>
+          </ul>
+          <!-- <button class="btn btn-primary">Certificate</button> -->
+        </div>
+      </div>
+    </nav>
+    <!-- category filter section start here  -->
+    <div class="categoryFilter">
+      <ul>
+        <li class=" d-block d-md-none" style="position: sticky;
+        left: 0; z-index: 0; background: #000;"><a href="javascript:void(0)" type="button " class="btn-sidebar"><i
+              class="fa-solid fa-bars"></i></a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn active">HTML</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">CSS</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">JAVASCRIPT</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C++</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C#</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">JAVA</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">PYTHON</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">BOOTSTRAP</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">TAILWIND</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">GRAPHICES</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">CODIGNATOR</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">LARAVEL</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">REACT</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">VUE</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn active">HTML</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">CSS</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">JAVASCRIPT</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C++</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">C#</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">JAVA</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">PYTHON</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">BOOTSTRAP</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">TAILWIND</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">GRAPHICES</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">CODIGNATOR</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">LARAVEL</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">REACT</a></li>
+        <li><a href="javascript:void(0)" class="cat_filter_btn">VUE</a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- navbar part end here  -->
+
+    <!-- main section start here  -->
+    <div class="main_section">
+        <!-- sidebar start here  -->
+        <div class="main_sidebar">
+            <ul>
+                <li class="active">
+                    <a href="index.html">
+                        <p>Html</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>Css</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>Javascrip</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>PHP</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>Laravel</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>C</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>C++</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>Java</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>Python</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>C#</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>React</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>Vue</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <p>Angular</p>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- content section start here  -->
+
+        <div class="main_content">
+            <!-- content start here  -->
+            <div class="content_box">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="question_details">
+                            <h4>How can I configure Sphinx to treat "-" as a normal symbol when searching? </h4>
+                            <div class="likeList">
+                                <ul>
+                                  <li><i class="fa-solid fa-thumbs-up"></i>1.5K </li>
+                                  <li><i class="fa-solid fa-thumbs-down"></i>1.5K </li>
+                                  <li><i class="fa-solid fa-reply"></i>1K </li>
+                                  <li> <i class="fa-solid fa-eye"></i>1K </li>
+                                </ul>
+                              </div>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quis cumque laborum
+                                est nam illum vitae accusantium explicabo esse in dolore earum, nesciunt iusto modi
+                                facere asperiores cupiditate provident aliquid, ipsa nemo magnam doloremque hic. Dolore
+                                sequi voluptas animi id ad deleniti soluta unde? Consectetur ullam, rerum fugiat dolor
+                                accusantium veritatis magni hic dolores vitae vero, aspernatur et excepturi nam nesciunt
+                                numquam expedita obcaecati labore nemo ducimus error omnis itaque repellat dignissimos
+                                nihil! Et consequatur voluptates dolorum asperiores molestiae. Quis pariatur praesentium
+                                itaque excepturi. Quos, itaque laboriosam? Laudantium, nesciunt! Ad deserunt eligendi
+                                dignissimos, omnis rerum aspernatur quam eius nulla? Quidem saepe fuga eum nam at nisi
+                                repellendus laudantium perferendis obcaecati quia eius tempore eaque, id nesciunt sequi
+                                blanditiis odio dolor iste dolores molestias commodi ipsa. Sint debitis, expedita alias
+                                tenetur molestiae velit doloremque consequatur ipsam impedit quasi a ex temporibus nobis
+                                aperiam quo. Sit eius earum illum inventore dolor. Cumque aliquid, impedit nisi
+                                accusamus neque adipisci optio! Dolores recusandae, molestias laborum accusamus odio
+                                quis officiis commodi eaque reprehenderit dolorum blanditiis sed quo placeat mollitia.
+                                Atque laudantium, eveniet debitis obcaecati quod pariatur ea ducimus minus numquam
+                                asperiores tempora veritatis ab dolorum qui sunt, dolores ut unde alias nulla quisquam
+                                consectetur velit consequatur eligendi. Fugit nisi laboriosam voluptate inventore
+                                voluptatibus quibusdam consectetur molestias nesciunt doloribus aliquid, quam in illum
+                                culpa incidunt illo voluptates accusantium est! Repellendus eveniet, est dignissimos
+                                harum eum quae inventore dolor quisquam velit, quibusdam quas cum assumenda, provident
+                                labore earum quod tenetur placeat quia excepturi perferendis corporis reiciendis ut
+                                quos! Sapiente deleniti, amet quo facere ut reprehenderit tenetur, maiores ipsa ducimus
+                                est harum fuga vero temporibus dicta alias impedit nulla repellat esse nostrum, cum
+                                architecto! Iste pariatur, natus reprehenderit sit tempora explicabo vitae? Id,
+                                dignissimos impedit dolorem, vitae, saepe magni non eius repellendus tenetur eligendi
+                                minus ipsum. Eum, dignissimos?</p>
+
+                                <div class="likeList">
+                                    <ul>
+                                      <li><button class="btn btn-secondary"><i class="fa-solid fa-thumbs-up"></i></button></li>
+                                      <li><button class="btn btn-secondary"><i class="fa-solid fa-thumbs-down"></i></button></li>
+                                      <li><a href="#replybox" class="btn btn-secondary">Reply</a></li>
+                                    </ul>
+                                  </div>
+                            <!-- comment reply list start here  -->
+
+                            <div class="question_box ansList">
+                                <div class="user_details">
+                                  <img src="images/1.jpg" alt="">
+                                  <a href="#">User name</a>
+                                  <strong>2,234</strong>
+                                  <p>aske</p>
+                                </div>
+                                <h6>
+                                  <a href="javascript:void(0)">How can I configure Sphinx to treat "-" as a normal symbol when searching? </a>
+                                </h6>
+                                <p>I am using Sphinx for documentation, and I use a MyST Parser My documentation is technical, so I often want to search some command line options, like for example --run. However, the "-" (... I am using Sphinx for documentation, and I use a MyST Parser My documentation is technical, so I often want to search some command line options, like for example --run. However, the "-" (... I am using Sphinx for documentation, and I use a MyST Parser My documentation is technical, so I often want to search some command line options, like for example --run. However, the "-" (...</p>
+                              </div>
+
+
+                              <!-- reply box start here  -->
+                            <div class="comment_box" id="replybox">
+                                <form action="">
+                                    <h3>Know someone who can answer?</h3>
+                                <textarea id="summernote"></textarea>
+                                <button type="submit" class="btn btn-primary mt-2">Replay</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="ads_imgs">
+                            <img src="images/adsOne.png" alt="" style="width: 100%;">
+                            <img src="images/adsTwo.png" alt="" style="width: 100%;">
+                            <img src="images/adsOne.png" alt="" style="width: 100%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer part start here  -->
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6 col-xxl-5">
+                            <div class="footer_subcription">
+                                <h1>W3Programming</h1>
+                                <p>Welcome to W3Programming, your gateway to the world of Web3 trading! Our
+                                    user-friendly platform
+                                    empowers
+                                    you to explore a wide range of programming learning</p>
+                                <ul class="socialList">
+                                    <li><a href="javascrip:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="javascrip:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="javascrip:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="javascrip:void(0)"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3 col-md-4 col-lg-3 col-xxl-2">
+                            <div class="cat_list">
+                                <h1>Company</h1>
+                                <ul>
+                                    <li><a href="javscript:void(0)">About</a></li>
+                                    <li><a href="javscript:void(0)">Join</a></li>
+                                    <li><a href="javscript:void(0)">Blog</a></li>
+                                    <li><a href="javscript:void(0)">Academy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3 col-md-4 col-lg-3 col-xxl-2">
+                            <div class="cat_list">
+                                <h1>Security</h1>
+                                <ul>
+                                    <li><a href="javscript:void(0)">Contact</a></li>
+                                    <li><a href="javscript:void(0)">Protection</a></li>
+                                    <li><a href="javscript:void(0)">Security</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3 col-md-4 col-lg-3 col-xxl-2">
+                            <div class="cat_list">
+                                <h1>Assets</h1>
+                                <ul>
+                                    <li><a href="javscript:void(0)">Html</a></li>
+                                    <li><a href="javscript:void(0)">Css</a></li>
+                                    <li><a href="javscript:void(0)">javascrip</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <section class="footer_bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 m-auto text-center">
+                            <p>Copyright 2024 - Futuregenit All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- footer part end here  -->
+        </div>
+    </div>
+    <!-- main section end here  -->
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!--Jquery Cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script> <!--Bootstrap-->
+    <script src="js/custom_main.js"> </script>
+    <!-- Summernote JS -->
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
+    <script>
+        $('#summernote').summernote({
+            tabsize: 1,
+            height: 200,
+            callbacks: {
+                    onInit: function() {
+                        $('.note-editable').css('color', '#ffffff');  
+                    }
+                },
+        });
+    </script>
+
+</body>
+
+</html>

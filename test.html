@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter Up Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .secCounterUp {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .counter_box {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<section class="secCounterUp">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="counterupTitle">
+                    <p>Blockchain Technology</p>
+                    <h1>Life in the digital world</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="counter_box">
+                            <h1><span class="counter" data-count="837432">0</span></h1>
+                            <h6>Market price</h6>
+                            <p>Claritas est etiam processus dynamicus, sequitur consuetudium lectorum.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="counter_box">
+                            <h1><span class="counter" data-count="837432">0</span>md</h1>
+                            <h6>Market price</h6>
+                            <p>Claritas est etiam processus dynamicus, sequitur consuetudium lectorum.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="counter_box">
+                            <h1><span class="counter" data-count="837432">0</span></h1>
+                            <h6>Market price</h6>
+                            <p>Claritas est etiam processus dynamicus, sequitur consuetudium lectorum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+$(document).ready(function() {
+    var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                $(entry.target).find('.counter').each(function() {
+                    var $this = $(this);
+                    var countTo = parseInt($this.attr('data-count'));
+                    $({ countNum: 0 }).animate({
+                        countNum: countTo
+                    },
+                    {
+                        duration: 2000,
+                        easing: 'swing',
+                        step: function() {
+                            $this.text(Math.floor(this.countNum));
+                        },
+                        complete: function() {
+                            $this.text(this.countNum);
+                        }
+                    });
+                });
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    $('.counter_box').each(function() {
+        observer.observe(this);
+    });
+});
+</script>
+
+</body>
+</html>
